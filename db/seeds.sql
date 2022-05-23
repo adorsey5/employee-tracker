@@ -3,7 +3,7 @@ VALUES
 ('Marketing'),
 ('Sales'),
 ('Finance'),
-('Management');
+('Management'),
 ('Engineering');
 
 INSERT INTO roles (title, salary, department_id)
@@ -13,7 +13,7 @@ VALUES
 ('Accountant', 60000.00, 3),
 ('Manager', 75000.00, 4),
 ('Engineer', 85000.00, 5),
-('Branding Consultant', 70000.00, 1),
+('Branding Consultant', 70000.00, 1);
 
 INSERT INTO employees (first_name, last_name, role_id, manager_id)
 VALUES
